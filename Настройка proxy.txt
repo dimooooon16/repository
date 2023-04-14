@@ -1,0 +1,17 @@
+Настройка работы через proxy
+git
+git config --global http.proxy http://dune%5CЛогин:Пароль@192.168.40.21:8080
+ 
+git config --global http.sslVerify false
+
+npm
+# настройка proxy
+ 
+npm config set proxy http://dune%5CЛогин:Пароль@192.168.40.21:8080
+  
+
+#%20-пробел %5C -\
+ 
+# отключение ssl
+ 
+npm config set strict-ssl false
